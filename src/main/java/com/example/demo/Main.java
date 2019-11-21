@@ -16,6 +16,6 @@ public class Main {
 
   @RequestMapping("/")
   public String greeting(){
-    return "Let's see sumn";
+    return "Let's see sumn. Vamos";
   }
 }
