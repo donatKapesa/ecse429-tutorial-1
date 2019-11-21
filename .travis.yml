@@ -1,3 +1,7 @@
 language: java
+
+before_install:
+- export PATH=$JAVA_HOME/bin:$PATH
+
 script:
 - mvn clean install
